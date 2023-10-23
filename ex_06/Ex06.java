@@ -3,9 +3,7 @@ package ex_06;
 public class Ex06 {
 
     public static void sequence(int nbr) {
-        if (nbr == 1) {
             System.out.println("1");
-        } else {
             String s = "1";
             for (int i = 0; i < nbr - 1; i++) {
                 String tmp = "";
@@ -19,13 +17,14 @@ public class Ex06 {
                     }
                 }
                 s = tmp;
+                System.out.println(s);
             }
-            System.out.println(s);
-        }
     }
 
+    /*
     public static void main(String[] args) {
-        sequence(3);
+        sequence(4);
     }
+    */
 
 }
