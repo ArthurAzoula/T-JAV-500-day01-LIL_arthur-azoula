@@ -1,9 +1,12 @@
 public class Ex06 {
 
     public static void sequence(int nbr) {
+            if (nbr < 0) {
+                return;
+            }
             System.out.println("1");
             String s = "1";
-            for (int i = 0; i < nbr - 1; i++) {
+            for (int i = 0; i < nbr; i++) {
                 String tmp = "";
                 int count = 1;
                 for (int j = 0; j < s.length(); j++) {
@@ -21,7 +24,7 @@ public class Ex06 {
 
     /*
     public static void main(String[] args) {
-        sequence(4);
+        sequence(-100);
     }
     */
 
