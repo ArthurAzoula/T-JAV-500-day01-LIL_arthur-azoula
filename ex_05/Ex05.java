@@ -1,5 +1,3 @@
-package ex_05;
-
 import java.util.ArrayList;
 
 public class Ex05 {
