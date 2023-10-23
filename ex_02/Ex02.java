@@ -6,6 +6,8 @@ public class Ex02 {
         for (int i = 0; i < nbr; i++) {
             dog += "woof";
         }
+        dog += "\n";
+
         return dog;
     }
 
