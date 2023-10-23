@@ -9,7 +9,11 @@ public class Ex02 {
         return dog;
     }
 
+    /*
+
     public static void main(String[] args) {
         System.out.println(getAngryDog(3));
     }
+
+    */
 }
